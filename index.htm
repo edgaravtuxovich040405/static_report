@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/jpg">
+
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <div class="logo-area">
+            <div class="mirea-logo-svg">
+                <div class="mirea-logo-svg">
+                    <img class="mirea-logo-jpg" src="./MIREA_Gerb_Colour.jpg" alt="тут должно быть герб РТУ МИРЭА">
+                </div>
+            </div>
+            <div class="logo-text">
+                <h1>РТУ МИРЭА</h1>
+                <p>Институт перспективное технологии и индустриальное програмирование</p>
+            </div>
+        </div>
+        <div class="title-right">
+            <div class="subject">📐 Эргономический анализ · Антропометрические данные</div>
+            <h2>Статистический отчёт</h2>        
+        </div>
+    </div>
+    
+    </div>
+    <div class="main__section">
+      <nav class="main__header">
+        <a href="./index.htm" class="main__header__link">статистика</a>
+        <a href="./graphics.html" class="main__header__link">ГРАФИК</a>
+        <a href="./exercase.html" class="main__header__link">ответы на задание</a>
+      </nav>
+    </div>
+
+    
+    <div class="report-info">
+        <span>📊 Исходные данные: <strong>base.csv</strong> (20 параметров, 10 респондентов + столбец normal). Расчёт моды, медианы, экстремумов и распределения вероятностей.</span>
+        <span class="badge">🔬 Методология: мат. статистика · дизайн-проектирование</span>
+    </div>
+
+    <div class="section-title">
+        <span>📋</span> Сводная таблица антропометрических параметров
+    </div>
+    <div class="table-wrapper">
+        <table class="stats-table" id="statsTable">
+            <thead>
+                <tr><th>Параметр (эстетика/эргономика)</th><th>Мода</th><th>Медиана</th><th>Максимум</th><th>Минимум</th><th>n (измерений)</th></tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+
+    <div class="section-title">
+        <span>📊</span> Детальное распределение вероятностей (относительная частота)
+    </div>
+    <div id="probabilitiesContainer" class="prob-grid"></div>
+        <footer>
+        © РТУ МИРЭА — Кафедра технической эстетики и дизайна | Вычисления: мода (наиболее частое значение), медиана, min/max, эмпирическое распределение.
+        <div class="SNFn contact-table-container">
+  <table class="footer_table">
+    <thead>
+      <tr>
+        <th>Проводили практику:</th>
+        <th>ФИО</th>
+        <th>Контакт</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>Автухович Э.В.</td>
+        <td><a href="mailto:avtuxoviche@gmail.com">avtuxoviche@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Тетерин А.А.</td>
+        <td><a href="mailto:alexey_teterin8349@mail.ru">alexey_teterin8349@mail.ru</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Моисеев А.Д.</td>
+        <td><a href="mailto:afanacymoiseev@yandex.ru">afanacymoiseev@yandex.ru</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Чумаевский И.А.</td>
+        <td><a href="mailto:dozdikchetvetga@gmail.com">dozdikchetvetga@gmail.com</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</footer>
+</div>
+<script src="./main.js" defer></script>
+</body>
+</html>
